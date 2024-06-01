@@ -253,7 +253,8 @@ footer {
           flex: 1;
           border: 1px solid;
           padding: 5px;
-          margin-right: 10px; }
+          margin-right: 10px;
+          background-color: transparent; }
         .module.row-contrast-checker .examples .example .ui-example .checkmark {
           font-size: 24px;
           color: green; }
