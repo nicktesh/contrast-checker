@@ -1,0 +1,261 @@
+body {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Inconsolata", sans-serif;
+  line-height: 1.667;
+  letter-spacing: normal;
+  position: relative;
+  background-color: #fff;
+  backdrop-filter: blur(10px);
+  color: #000;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 1s;
+  transition-delay: 0.2s; }
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px; } }
+  body.scroll {
+    overflow-y: hidden; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Inconsolata", sans-serif; }
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: #000; }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px; } }
+
+h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #000; }
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 26px; } }
+
+h3 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #000; }
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 24px; } }
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000; }
+  @media (max-width: 768px) {
+    h4 {
+      font-size: 22px; } }
+
+h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000; }
+  @media (max-width: 768px) {
+    h5 {
+      font-size: 20px; } }
+
+h6 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000; }
+  @media (max-width: 768px) {
+    h6 {
+      font-size: 18px; } }
+
+p {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Inconsolata", sans-serif;
+  color: #000; }
+  @media (max-width: 768px) {
+    p {
+      font-size: 16px; } }
+
+a {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Inconsolata", sans-serif;
+  color: #000;
+  text-decoration: underline; }
+  @media (max-width: 768px) {
+    a {
+      font-size: 16px; } }
+  a:hover, a:active, a:focus {
+    text-decoration: none;
+    color: #0a1530; }
+
+img {
+  width: 100%; }
+
+::selection {
+  background-color: #0a1530;
+  color: #fff; }
+
+.module {
+  padding: 100px 0; }
+  @media (max-width: 768px) {
+    .module {
+      padding: 50px 0; } }
+  .module .module-content {
+    margin-bottom: 30px; }
+    .module .module-content i {
+      color: #000;
+      font-weight: 700; }
+
+.center {
+  justify-content: center;
+  align-items: center; }
+
+.bg-neutral {
+  background-color: #e0e3e7; }
+
+.container-fluid {
+  padding: 0; }
+
+@media (min-width: 1350px) {
+  .container {
+    max-width: 1350px !important; } }
+
+@media (min-width: 1450px) {
+  .container-xl {
+    max-width: 1450px !important; } }
+
+.pt-0 {
+  padding-top: 0; }
+
+.pb-0 {
+  padding-bottom: 0; }
+
+.p-0 {
+  padding: 0; }
+
+.shadow {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.025), 0 1px 0 rgba(0, 0, 0, 0.05), 0 0 8px rgba(0, 0, 0, 0.03), 0 20px 30px rgba(0, 0, 0, 0.1); }
+
+.primary-btn {
+  display: inline-block;
+  background: #bd17ab;
+  background: linear-gradient(45deg, #bd17ab 0%, #5343ff 100%);
+  color: #fff;
+  border: 2px solid #bd17ab;
+  border-radius: 10px;
+  outline: none;
+  width: fit-content;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease; }
+  .primary-btn:hover, .primary-btn:active, .primary-btn:focus {
+    background: linear-gradient(45deg, #5343ff 0%, #bd17ab 100%);
+    border: 2px solid #5343ff; }
+
+header {
+  display: flex;
+  width: 100%;
+  text-align: center; }
+  header .container-fluid {
+    padding: 0; }
+  header .row-header {
+    padding-bottom: 50px; }
+    @media (max-width: 992px) {
+      header .row-header {
+        padding-bottom: 30px; } }
+
+footer {
+  background-color: #0a1530;
+  text-align: center;
+  padding: 20px 0; }
+  footer p {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 14px; }
+
+.module.row-contrast-checker {
+  padding-top: 0; }
+  .module.row-contrast-checker .input-group {
+    align-items: center; }
+    .module.row-contrast-checker .input-group .form-control-color {
+      width: 50px;
+      height: 50px;
+      max-width: 50px;
+      border: none;
+      padding: 0; }
+    .module.row-contrast-checker .input-group #swap-colors {
+      margin: 0 20px; }
+  .module.row-contrast-checker #contrast-ratio {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 20px 0; }
+  .module.row-contrast-checker #contrast-text {
+    font-size: 1.2rem;
+    color: #6c757d; }
+  .module.row-contrast-checker .examples {
+    margin-top: 20px; }
+    .module.row-contrast-checker .examples .example {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px; }
+      .module.row-contrast-checker .examples .example .d-flex div {
+        margin-right: 20px; }
+        .module.row-contrast-checker .examples .example .d-flex div:last-child {
+          margin-right: 0; }
+      .module.row-contrast-checker .examples .example .status {
+        display: inline-block;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-weight: bold; }
+      .module.row-contrast-checker .examples .example .pass {
+        background-color: #d4edda;
+        color: #155724; }
+      .module.row-contrast-checker .examples .example .fail {
+        background-color: #f8d7da;
+        color: #721c24; }
+      .module.row-contrast-checker .examples .example .text-example {
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-top: 10px; }
+      .module.row-contrast-checker .examples .example .small-text {
+        font-size: 16px; }
+      .module.row-contrast-checker .examples .example .large-text {
+        font-size: 24px;
+        font-weight: bold; }
+      .module.row-contrast-checker .examples .example .ui-example {
+        padding: 10px;
+        border: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+        margin-top: 10px; }
+        .module.row-contrast-checker .examples .example .ui-example .ui-input {
+          flex: 1;
+          border: 1px solid;
+          padding: 5px;
+          margin-right: 10px; }
+        .module.row-contrast-checker .examples .example .ui-example .checkmark {
+          font-size: 24px;
+          color: green; }
+
+/*# sourceMappingURL=styles.css.map */
